@@ -6,7 +6,7 @@ const App = (function () {
     view: 'dashboard',
     session: null,        // active exam/practice session
     lastEntry: null,      // last completed history entry (for results view)
-    reviewEntry: null,    // history entry being viewed from History list
+    reviewEntry: null,    // history entry being viewed from history lists
     timerId: null,
     practiceDraft: { mode: 'topic', topic: null, difficulty: null, count: 10, timed: false },
   };
