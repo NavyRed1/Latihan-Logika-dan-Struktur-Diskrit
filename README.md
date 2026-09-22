@@ -1,1 +1,2 @@
-# Latihan-Logika-dan-Struktur-Diskrit
+# Latihan Logika dan Struktur Diskrit
+
