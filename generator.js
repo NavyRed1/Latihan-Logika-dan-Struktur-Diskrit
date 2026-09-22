@@ -1,8 +1,8 @@
-// ============================================================
+// ==========================================================
 // Question generators. Each generator returns a question object:
 // { qtype, difficulty, topic, prompt, render-data..., correct, explanation, mistakeTag, lawTrace? }
 // qtype in: mcq | tf | symbolic | truthtable | selectexpr | equivalence | proof | consistency
-// ============================================================
+// ==========================================================
 const QGEN = (function () {
   const { parseExpr, toStr, equivalent, classify, truthTable, substitute, evalNode } = Logic;
 
