@@ -49,7 +49,7 @@ const DATA = (function () {
     { text: "That today is cloudy is necessary and sufficient for today to be rainy.", expr: "p IFF q" },
   ];
 
-  // Speeding-ticket exercise, verbatim structure from L2 (p=drive>65mph, q=speeding ticket)
+  // speeding-ticket exercise, verbatim structure from L2 (p=drive>65mph, q=speeding ticket)
   const SPEEDING_TRANSLATIONS = [
     { text: "You do not drive over 65 miles per hour.", expr: "NOT p" },
     { text: "You drive over 65 miles per hour, but you do not get a speeding ticket.", expr: "p AND NOT q" },
