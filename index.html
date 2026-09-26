@@ -1866,9 +1866,9 @@ const App = (function () {
     function init() {
       muted = Store.getMuted();
       try {
-        bg = new Audio(ASSETS.bgMusic); bg.loop = true; bg.volume = 0.35;
-        menu = new Audio(ASSETS.menuSound); menu.volume = 0.55;
-        start = new Audio(ASSETS.startSound); start.volume = 0.6;
+        bg = new Audio(ASSETS.bgMusic); bg.loop = true; bg.volume = 0.4;
+        menu = new Audio(ASSETS.menuSound); menu.volume = 0.7;
+        start = new Audio(ASSETS.startSound); start.volume = 0.7;
       } catch (e) { console.warn('audio init failed', e); }
       updateMuteUI();
       const tryStartBg = () => { if (!muted) attemptPlayBg(); };
